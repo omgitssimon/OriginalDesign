@@ -11,7 +11,7 @@ int y=6;
 	stars();
 	text();
 
-	frameRate(60);
+	//frameRate(60);
 if (mousePressed == true) 
 {
 	fill(0,255,0);
