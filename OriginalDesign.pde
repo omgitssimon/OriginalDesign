@@ -12,7 +12,7 @@ int y=6;
 	text();
 
 	//frameRate(60);
-if (mousePressed == true) 
+if (mouseIsPressed == true) 
 {
 	fill(0,255,0);
 	rect(170,281,62,y);	
