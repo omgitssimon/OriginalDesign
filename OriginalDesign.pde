@@ -6,12 +6,12 @@ void setup()
 int y=6;
  void draw()
  {
-	background(random(0,255), 0, 0);
+	background(0);//(random(0,255), 0, 0);
 	head();
 	stars();
 	text();
 
-	frameRate(150);
+	frameRate(60);
 if (mousePressed == true) 
 {
 	fill(0,255,0);
@@ -51,14 +51,14 @@ void head()
 	point(210,237);
 	fill(242, 5, 5);
     arc(199,281,63,40,-2*PI/180,PI); //mouth
-	fill(random(0,255), random(0,255), random(0,255));
+	fill(0,0,0);//random(0,255), random(0,255), random(0,255));
 	arc(196,139,223,190,PI,2*PI); //hair
 	rect(92,137,211,1);
 }
 
 void stars()
 {
-	fill(random(150,239),random(150,255),0);
+	fill(0,0,0);//random(150,239),random(150,255),0);
 	rect(0,0,90,90);
 }
 
