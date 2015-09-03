@@ -6,7 +6,7 @@ void setup()
 int y=6;
  void draw()
  {
-	background(0);//(random(0,255), 0, 0);
+	background(random(0,255), 0, 0);
 	head();
 	stars();
 	text();
@@ -58,7 +58,7 @@ void head()
 
 void stars()
 {
-	fill(0,0,0);//random(150,239),random(150,255),0);
+	fill(random(150,239),random(150,255),0);
 	rect(0,0,90,90);
 }
 
